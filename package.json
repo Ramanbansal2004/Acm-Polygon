@@ -1,17 +1,23 @@
 {
-  "name": "symphonia",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "polygoncolliderproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "gjk": "^0.0.1",
+    "mongoose": "^7.3.1",
+    "shortid": "^2.2.16",
     "three": "^0.153.0"
   },
   "devDependencies": {
-    "vite": "^4.3.9"
+    "nodemon": "^2.0.22"
   }
 }
